@@ -2,10 +2,6 @@
 
 O projeto foi desenvolvido na linguagem PHP utilizando Laravel, Vue.js e MySql.
 
-
-Acessível no link: https://rafael-netshowme.herokuapp.com
-
-
 ## Como rodar o projeto
 
 
@@ -52,6 +48,7 @@ MAIL_FROM_ADDRESS=rfl.azambuja@gmail.com
 ```
 
 ## Testes automatizados
+
 
 - /tests/Browser
 

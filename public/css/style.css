@@ -1,0 +1,49 @@
+.header .title {
+    font-size: 30px;
+}
+
+.right-buttons {
+    width: 100%;
+}
+
+.right-buttons .btn {
+    width: 100%;
+    margin: 5px auto;
+}
+
+.form-control[type='file'] {
+    height: auto;
+}
+
+@media (min-width: 768px)
+{
+    .right-buttons .btn,
+    .right-buttons {
+        width: auto;
+    }
+    .right-buttons .btn {
+        margin: auto;
+    }
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea.form-control {
+    height: 120px;
+}
+
+.error-input {
+    width: 100%;
+    display: block;
+    color: #dc3545;
+    margin: -10px 0 0 0;
+    font-size: 14px;
+}
+
+.error-input + textarea, 
+.error-input + input
+{
+    border-color: #dc3545
+}

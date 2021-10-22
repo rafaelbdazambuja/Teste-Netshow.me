@@ -37,14 +37,14 @@ Configurações devem ser setadas no arquivo **.env** na raiz do projeto
 
 
 ```
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.sendgrid.net
-MAIL_PORT=587
-MAIL_USERNAME=apikey
-MAIL_PASSWORD=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
-MAIL_ENCRYPTION=tls
+MAIL_MAILER=
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=
 MAIL_FROM_NAME="${APP_NAME}"
-MAIL_FROM_ADDRESS=rfl.azambuja@gmail.com
+MAIL_FROM_ADDRESS=
 ```
 
 ## Testes automatizados
